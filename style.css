@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600&family=Roboto+Mono:ital,wght@0,600;1,300&display=swap');
+
+* {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.divBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divBtn button {
+  padding: 2%;
+  border-bottom-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.btnDivContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 8vh;
+  margin: 2%;
+}
+.letraColor {
+  padding: 2%;
+  border: 1px dashed black;
+  border-bottom-left-radius: 22px;
+  border-top-right-radius: 22px;
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+}
+.btn {
+  border: 0.5px dashed;
+}
+.btn:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+/* footer */
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icon {
+  font-size: 3rem;
+  color: rgb(234, 251, 255);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.icon:hover {
+  transform: scale(1.4);
+  opacity: 1;
+}
+.sign {
+  font-family: 'Orbitron', sans-serif;
+}
